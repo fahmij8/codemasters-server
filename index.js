@@ -24,8 +24,19 @@ app.get('/api', (req, res) => {
   });
 });
 
+app.get('/api/lessons', (req, res) => {
+  res.send(responses.LESSONS_DATA);
+});
+
 app.get('/api/lessons/sample', (req, res) => {
   res.send(responses.SAMPLE_LESSON_DATA);
+});
+
+// handle 404
+app.use((req, res) => {
+  res.status(404).send({
+    message: '404 Not Found',
+  });
 });
 
 app.listen(port, () => {

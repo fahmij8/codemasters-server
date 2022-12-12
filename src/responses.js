@@ -39,6 +39,29 @@ const SAMPLE_LESSON_DATA = [
   },
 ];
 
+const LESSONS_DATA = [
+  {
+    id: 1,
+    title: 'Sample Lesson 1',
+    description:
+      'This is a sample lesson to demonstrate how Codemasters works.',
+    link: '/lessons/sample',
+  },
+  {
+    id: 2,
+    title: 'HTML & CSS Basics',
+    description: 'Learn the basics of HTML and CSS.',
+    link: '',
+  },
+  {
+    id: 3,
+    title: 'Javascript Basics',
+    description: 'Learn the basics of Javascript.',
+    link: '',
+  },
+];
+
 module.exports = {
   SAMPLE_LESSON_DATA,
+  LESSONS_DATA,
 };
