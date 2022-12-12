@@ -1,13 +1,14 @@
 const SAMPLE_LESSON_DATA = [
   {
     type: 'intro',
+    title: 'What is Codemasters?',
     content: [
-      `Welcome to Codemasters! Codemasters is a platform that allows you to learn programming languages and frameworks through interactive lessons. Each lesson will have a set of instructions that will guide you through the lesson. You will be able to see the code you write in real time and see the results of your code.`,
       `This is an example lesson to demonstrate how Codemasters works. In this lesson, you will learn how to create a simple web page with <code>html</code>, <code>css</code> and <code>javascript</code> files. Please follow the instructions below to work on this lesson challange.`,
     ],
   },
   {
     type: 'instruction',
+    title: 'Instructions',
     content: [
       {
         stage: 1,
