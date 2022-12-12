@@ -1,5 +1,6 @@
 const SAMPLE_LESSON_DATA = [
   {
+    key: 'intro',
     type: 'intro',
     title: 'What is Codemasters?',
     content: [
@@ -8,30 +9,37 @@ const SAMPLE_LESSON_DATA = [
     ],
   },
   {
+    key: 'instruction',
     type: 'instruction',
     title: 'Instructions',
     content: [
       {
+        key: 'stage-1',
         stage: 1,
         instruction: `In HTML files, create element <code>h1</code> with text <code>Heading 1</code>`,
       },
       {
+        key: 'stage-2',
         stage: 2,
         instruction: `Create element <code>h2</code> with text <code>Heading 2</code>`,
       },
       {
+        key: 'stage-3',
         stage: 3,
         instruction: `Create element <code>h3</code> with text <code>Heading 3</code>`,
       },
       {
+        key: 'stage-4',
         stage: 4,
         instruction: `In CSS files, give <code>h1</code> red color (<code>color: rgb(255, 0, 0);</code>)`,
       },
       {
+        key: 'stage-5',
         stage: 5,
         instruction: `In HTML files, give <code>h2</code> id of <code>heading-2</code>`,
       },
       {
+        key: 'stage-6',
         stage: 6,
         instruction: `In Javascript files, change <code>innerText</code> of <code>heading-2</code> to <code>Bye World!</code>`,
       },
