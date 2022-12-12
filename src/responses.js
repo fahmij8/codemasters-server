@@ -53,7 +53,7 @@ const LESSONS_DATA = [
     title: 'Sample Lesson 1',
     description:
       'This is a sample lesson to demonstrate how Codemasters works.',
-    link: '/lessons/sample',
+    link: '/courses/sample',
   },
   {
     id: 2,
